@@ -260,6 +260,7 @@ install_x-ui() {
 #    wget -O /usr/bin/x-ui https://raw.githubusercontent.com/MHSanaei/3x-ui/main/x-ui.sh
 #    wget -O /usr/bin/x-ui https://raw.githubusercontent.com/MHSanaei/3x-ui/v2.5.5/x-ui.sh
     wget -O /usr/bin/x-ui https://raw.githubusercontent.com/jameszeroX/3x-ui/main/x-ui.sh
+    wget -O /usr/local/x-ui/x-ui.sh https://raw.githubusercontent.com/jameszeroX/3x-ui/main/x-ui.sh
     chmod +x /usr/local/x-ui/x-ui.sh
     chmod +x /usr/bin/x-ui
     config_after_install
